@@ -2,8 +2,12 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
+// importing class from shapes.js
+const {Square, Triangle, Circle} = require('./lib/shapes.js');
+
+
 // function to promt user for input using 'prompt' module from npm
-function promptUser();
+function promptUser() {
     inquirer.prompt([
         {
             type: 'input',
@@ -12,7 +16,7 @@ function promptUser();
         },
         {
             type: 'input',
-            name:'tectColor',
+            name:'textColor',
             message: 'Pick a color for the text (Enter color name or hexidecimal value)',
         },
         {
@@ -34,6 +38,10 @@ function promptUser();
             return;
         }
         else {
-            
+            writeToFile("logo.svg", answers);
         }
     });
+}
+
+// call function to prompt user for input
+promptUser();
