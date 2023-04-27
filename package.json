@@ -23,5 +23,8 @@
   "homepage": "https://github.com/KeltonSterett/Keltons-SVG-logo-Generator#readme",
   "devDependencies": {
     "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.4"
   }
 }
