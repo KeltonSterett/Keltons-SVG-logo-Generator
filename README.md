@@ -17,8 +17,7 @@
   First Clone Repo. Second, Open in VS Code (must use VS Code), Third, Open terminal and use command npm i to install jest and inquirer. Lastly enter in the command "node index.js" and answer the prompts to generate your logo!
 
   ## Usage
-  Install all dependancies and then run "node index.js" to begin filling out the prompted questions.
-
+  Here is a link to my usage video: https://drive.google.com/file/d/15hjulFB3cZ8bW9It5ep2OcQpORBB6pZC/view
    ## License
       This project is licensed under the MIT license.
 
